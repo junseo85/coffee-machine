@@ -99,7 +99,7 @@ while machine_working:
             global money
             money = coin + cost
             change = total - cost
-            change = round(change, 1)
+            change = round(change, 2)
             print(f"Here is ${change} in change.")
             print(f"Here is your {item} ☕. Enjoy!")
 
