@@ -36,11 +36,6 @@ money = 0
 
 machine_working = True
 while machine_working:
-
-    espresso = MENU["espresso"]
-    latte = MENU["latte"]
-    cappuccino = MENU["cappuccino"]
-    espresso_cost = espresso["cost"]
     user_item = input("What would you like? (espresso/latte/cappuccino): ")
 
     def ingredients(user_item):
